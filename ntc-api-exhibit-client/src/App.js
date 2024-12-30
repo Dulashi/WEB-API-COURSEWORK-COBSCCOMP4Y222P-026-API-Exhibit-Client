@@ -4,8 +4,11 @@ import ClientApiTester from './components/ClientApiTester';
 function App() {
   return (
     <div className="App">
-     <div>
-      <section><ClientApiTester/></section>
+      <header className="App-header">
+        <h1>National Transport Commission of Sri Lanka</h1>
+      </header>
+      <div>
+        <section><ClientApiTester /></section>
       </div>
     </div>
   );
